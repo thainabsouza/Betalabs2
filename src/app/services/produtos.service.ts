@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { EMPTY, Observable } from 'rxjs';
 import { catchError, map, tap } from 'rxjs/operators';
-import { ToastrService } from 'ngx-toastr';ng
+import { ToastrService } from 'ngx-toastr';
 
 @Injectable({
   providedIn: 'root'
